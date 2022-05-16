@@ -1,3 +1,5 @@
+import 'package:bus_on_the_way/screens/splashScreen/SplashScreen.dart';
+import 'package:bus_on_the_way/screens/startScreen/startScreen.dart';
 import 'package:bus_on_the_way/services/auth.dart';
 import 'package:provider/provider.dart';
 import 'package:bus_on_the_way/screens/home/wrapper.dart';
@@ -12,13 +14,15 @@ void main() async {
  
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
+  MyApp();
   @override
   Widget build(BuildContext context) {
     return StreamProvider<newUser?>.value(
       value: AuthService().user,
       initialData: null,
       child: MaterialApp(
-        home: Wrapper(),
+        debugShowCheckedModeBanner: false,
+        home: SplashScreen(),
       ),
     );
   }

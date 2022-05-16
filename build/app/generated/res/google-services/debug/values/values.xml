@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">865912262206-infaor35u5ekoec29g799ep6t8s78088.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">865912262206</string>
+    <string name="google_api_key" translatable="false">AIzaSyALvvre1z9sms4N8_FJgN8tMhc1k-vwudk</string>
+    <string name="google_app_id" translatable="false">1:865912262206:android:4b647f09585b4b7350cb6f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyALvvre1z9sms4N8_FJgN8tMhc1k-vwudk</string>
+    <string name="google_storage_bucket" translatable="false">bus-on-the-way-68db6.appspot.com</string>
+    <string name="project_id" translatable="false">bus-on-the-way-68db6</string>
+</resources>
